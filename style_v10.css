@@ -1,0 +1,204 @@
+/*
+  AI Course Finder – v10
+  Light, colorful, desktop-first layout
+*/
+
+/* Global look & feel */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #f5f7fb;
+  color: #1f2933;
+}
+
+/* Hero / header */
+.cf-hero {
+  background: radial-gradient(circle at top left, #e3f2ff 0, #f9f5ff 42%, #f5f7fb 100%);
+}
+
+.cf-hero-inner {
+  padding-bottom: 1.5rem;
+}
+
+.cf-hero-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #102a43;
+}
+
+.cf-hero-subtitle {
+  font-size: 0.98rem;
+  color: #4b5d73;
+  max-width: 32rem;
+}
+
+/* Common card */
+.cf-card {
+  border-radius: 1rem;
+  border: 1px solid #dbe2f0;
+  background-color: #ffffff;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+}
+
+/* Navbar buttons on gradient */
+#btn-quick-fill,
+#btn-clear-form {
+  font-size: 0.85rem;
+}
+
+/* Profile completeness */
+#profile-completeness-bar {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+}
+
+.cf-progress {
+  height: 0.7rem;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+/* Step indicator */
+.step-indicator {
+  gap: 0.75rem;
+}
+
+.step-indicator .step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.step-indicator .step.step-active {
+  opacity: 1;
+}
+
+.step-indicator .step-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  border: 2px solid #0d6efd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #0d6efd;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.12);
+}
+
+.step-indicator .step-label {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #4b5d73;
+}
+
+.step-indicator .step-line {
+  height: 2px;
+  background: linear-gradient(90deg, #0d6efd, #a0c4ff);
+  opacity: 0.7;
+}
+
+/* Tabs */
+.nav-tabs .nav-link {
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-weight: 500;
+  color: #6c757d;
+}
+
+.nav-tabs .nav-link.active {
+  color: #0d6efd;
+  border-bottom-color: #0d6efd;
+}
+
+/* Accordion */
+.accordion-button {
+  font-weight: 600;
+}
+
+.accordion-item {
+  border-radius: 0.75rem !important;
+  overflow: hidden;
+  border: 1px solid #e0e4f0;
+  margin-bottom: 0.75rem;
+}
+
+/* Recommendations cards */
+.program-card {
+  border-radius: 1rem;
+  border: 1px solid #e1e5f2;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+}
+
+/* Fit dimension bars */
+.fit-dimensions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.fit-dimension {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.fit-dimension span {
+  font-size: 0.8rem;
+  min-width: 70px;
+  color: #6c757d;
+}
+
+.fit-bar {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
+  background-color: #e9edf7;
+  overflow: hidden;
+}
+
+.fit-bar-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #0d6efd, #6f42c1);
+}
+
+/* Interest chips */
+.cf-chip {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  margin-right: 0.25rem;
+  margin-bottom: 0.2rem;
+  background-color: #edf2ff;
+  color: #344767;
+}
+
+.cf-chip-match {
+  background-color: #d1e8ff;
+  border: 1px solid #0d6efd;
+}
+
+/* Constraints summary */
+.cf-profile-summary {
+  display: inline-block;
+  padding: 0.45rem 0.65rem;
+  border-radius: 999px;
+  background-color: #f3f4ff;
+}
+
+/* Toast */
+.toast-container {
+  z-index: 1055;
+}

@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ app_name }} – v10</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_v10.css') }}" />
+  </head>
+
+  <body>
+    <!-- Top navbar / hero -->
+    <header class="cf-hero border-bottom shadow-sm">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-xl">
+          <div class="d-flex flex-column">
+            <span class="navbar-brand fw-bold mb-0">{{ app_name }}</span>
+            <small class="text-muted">
+              Find the perfect college program based on your unique profile
+            </small>
+          </div>
+
+          <div class="ms-auto d-flex gap-2">
+            <button type="button" class="btn btn-outline-light" id="btn-clear-form">
+              Clear Form
+            </button>
+            <button type="button" class="btn btn-light" id="btn-quick-fill">
+              Quick Fill (Demo Persona)
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="cf-hero-inner">
+        <div class="container-xl">
+          <div class="row align-items-center">
+            <div class="col-lg-7 mb-3 mb-lg-0">
+              <h1 class="cf-hero-title">Turn your profile into a smart course shortlist.</h1>
+              <p class="cf-hero-subtitle">
+                Answer a few guided questions and let AI Course Finder surface programs that
+                align with your academics, interests, budget, and location.
+              </p>
+            </div>
+            <div class="col-lg-5">
+              <!-- Profile completeness -->
+              <div class="cf-card p-3">
+                <div class="d-flex justify-content-between align-items-center mb-1">
+                  <span class="fw-semibold">Profile completeness</span>
+                  <span id="profile-completeness-label" class="text-muted">0% complete</span>
+                </div>
+                <div class="progress cf-progress">
+                  <div
+                    class="progress-bar"
+                    id="profile-completeness-bar"
+                    role="progressbar"
+                    style="width: 0%"
+                  ></div>
+                </div>
+                <small id="generate-hint" class="text-muted d-block mt-1">
+                  Fill out your basic profile to unlock recommendations.
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="py-4">
+      <div class="container-xl">
+        <!-- Step indicator -->
+        <div class="step-indicator d-flex justify-content-between align-items-center mb-4">
+          <div class="step {% if active_tab == 'profile' %}step-active{% endif %}">
+            <div class="step-circle">1</div>
+            <div class="step-label">Your Profile</div>
+          </div>
+          <div class="step-line flex-grow-1 mx-2"></div>
+          <div class="step {% if active_tab == 'recommendations' %}step-active{% endif %}">
+            <div class="step-circle">2</div>
+            <div class="step-label">Recommendations</div>
+          </div>
+        </div>
+
+        <!-- Tabs -->
+        <ul class="nav nav-tabs mb-3" id="mainTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link {% if active_tab == 'profile' %}active{% endif %}"
+              id="tab-profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#tab-profile"
+              type="button"
+              role="tab"
+            >
+              1. Your Profile and Preferences
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link {% if active_tab == 'recommendations' %}active{% endif %}"
+              id="tab-recs-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#tab-recs"
+              type="button"
+              role="tab"
+            >
+              2. Your Personalized Recommendations
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="mainTabsContent">
+          <!-- TAB 1: PROFILE -->
+          <div
+            class="tab-pane fade {% if active_tab == 'profile' %}show active{% endif %}"
+            id="tab-profile"
+            role="tabpanel"
+          >
+            <form id="profile-form" method="post" action="/">
+              <div class="accordion" id="profileAccordion">
+                <!-- 1. Basic Profile -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading-basic">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse-basic"
+                      aria-expanded="true"
+                    >
+                      1. Basic Profile
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse-basic"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#profileAccordion"
+                  >
+                    <div class="accordion-body">
+                      <div class="row g-3">
+                        <div class="col-md-4">
+                          <label class="form-label">Are you a Student or Parent?</label>
+                          <div>
+                            <div class="form-check form-check-inline">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="role"
+                                id="role-student"
+                                value="student"
+                                {% if profile and profile.role == 'student' %}checked{% endif %}
+                              />
+                              <label class="form-check-label" for="role-student">
+                                Student
+                              </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="role"
+                                id="role-parent"
+                                value="parent"
+                                {% if profile and profile.role == 'parent' %}checked{% endif %}
+                              />
+                              <label class="form-check-label" for="role-parent">
+                                Parent
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <label for="current_status" class="form-label">Current Status</label>
+                          <select class="form-select" id="current_status" name="current_status">
+                            <option value="">Choose...</option>
+                            <option value="high_school_student"
+                              {% if profile and profile.current_status == 'high_school_student' %}selected{% endif %}
+                            >
+                              High school student
+                            </option>
+                            <option value="high_school_graduate"
+                              {% if profile and profile.current_status == 'high_school_graduate' %}selected{% endif %}
+                            >
+                              High school graduate
+                            </option>
+                          </select>
+                        </div>
+
+                        <div class="col-md-4">
+                          <label for="home_state" class="form-label">Home State</label>
+                          <select class="form-select" id="home_state" name="home_state">
+                            <option value="">Choose...</option>
+                            {% for st in us_states %}
+                            <option value="{{ st }}"
+                              {% if profile and profile.home_state == st %}selected{% endif %}
+                            >
+                              {{ st }}
+                            </option>
+                            {% endfor %}
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2. Academic Profile -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading-academic">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse-academic"
+                    >
+                      2. Academic Profile
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse-academic"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#profileAccordion"
+                  >
+                    <div class="accordion-body">
+                      <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                          <label class="form-label">High School GPA</label>
+                          <div class="d-flex align-items-center gap-3">
+                            <input
+                              type="range"
+                              class="form-range"
+                              id="gpa"
+                              name="gpa"
+                              min="0"
+                              max="4"
+                              step="0.1"
+                              value="{{ profile.gpa if profile and profile.gpa is not none else 3.0 }}"
+                            />
+                            <div class="input-group" style="max-width: 120px;">
+                              <span class="input-group-text">GPA</span>
+                              <input
+                                type="number"
+                                step="0.1"
+                                min="0"
+                                max="4"
+                                class="form-control"
+                                id="gpa-value"
+                              />
+                            </div>
+                          </div>
+                          <small class="text-muted">
+                            This helps us provide academic context in the explanations.
+                          </small>
+                        </div>
+
+                        <div class="col-md-3">
+                          <label class="form-label">SAT Score</label>
+                          <input
+                            type="number"
+                            class="form-control"
+                            name="sat_score"
+                            min="400"
+                            max="1600"
+                            value="{{ profile.sat_score if profile and profile.sat_score is not none else '' }}"
+                          />
+                        </div>
+
+                        <div class="col-md-3">
+                          <label class="form-label">ACT Score</label>
+                          <input
+                            type="number"
+                            class="form-control"
+                            name="act_score"
+                            min="1"
+                            max="36"
+                            value="{{ profile.act_score if profile and profile.act_score is not none else '' }}"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3. Education Level & Interests -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading-interests">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse-interests"
+                    >
+                      3. Education Level & Interests
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse-interests"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#profileAccordion"
+                  >
+                    <div class="accordion-body">
+                      <div class="row g-4">
+                        <div class="col-md-6">
+                          <label class="form-label">Degree levels you are considering</label>
+                          <div class="row">
+                            {% for deg in degree_options %}
+                            <div class="col-md-6">
+                              <div class="form-check">
+                                <input
+                                  class="form-check-input degree-level"
+                                  type="checkbox"
+                                  name="degree_levels"
+                                  id="deg-{{ loop.index }}"
+                                  value="{{ deg }}"
+                                  {% if profile and (deg in (profile.degree_levels or [])) %}checked{% endif %}
+                                />
+                                <label class="form-check-label" for="deg-{{ loop.index }}">
+                                  {{ deg }}
+                                </label>
+                              </div>
+                            </div>
+                            {% endfor %}
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <label class="form-label">Interest Areas</label>
+                          <div class="row">
+                            {% for area in interest_options %}
+                            <div class="col-md-6">
+                              <div class="form-check">
+                                <input
+                                  class="form-check-input interest-area"
+                                  type="checkbox"
+                                  name="interest_areas"
+                                  id="int-{{ loop.index }}"
+                                  value="{{ area }}"
+                                  {% if profile and (area in (profile.interest_areas or [])) %}checked{% endif %}
+                                />
+                                <label class="form-check-label" for="int-{{ loop.index }}">
+                                  {{ area }}
+                                </label>
+                              </div>
+                            </div>
+                            {% endfor %}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 4. Budget & Location -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading-budget">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse-budget"
+                    >
+                      4. Budget & Location
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse-budget"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#profileAccordion"
+                  >
+                    <div class="accordion-body">
+                      <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                          <label class="form-label">Max comfortable annual tuition (USD)</label>
+                          <div class="d-flex align-items-center gap-3">
+                            <input
+                              type="range"
+                              class="form-range"
+                              id="max_tuition_slider"
+                              min="5000"
+                              max="80000"
+                              step="1000"
+                              value="{% if profile and profile.max_tuition %}{{ profile.max_tuition|int }}{% else %}25000{% endif %}"
+                            />
+                            <div class="input-group" style="max-width: 180px;">
+                              <span class="input-group-text">$</span>
+                              <input
+                                type="number"
+                                class="form-control"
+                                id="max_tuition"
+                                name="max_tuition"
+                                step="1000"
+                                min="0"
+                                value="{% if profile and profile.max_tuition %}{{ profile.max_tuition|int }}{% else %}25000{% endif %}"
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <label class="form-label">Study location preference</label>
+                          <select class="form-select" id="location_pref" name="location_pref">
+                            <option value="">Choose...</option>
+                            <option value="instate"
+                              {% if profile and profile.location_pref == 'instate' %}selected{% endif %}
+                            >
+                              In-state only
+                            </option>
+                            <option value="anywhere"
+                              {% if profile and profile.location_pref == 'anywhere' %}selected{% endif %}
+                            >
+                              Anywhere in the U.S.
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Generate button -->
+              <div class="d-flex justify-content-end mt-4">
+                <button
+                  type="submit"
+                  class="btn btn-lg btn-primary"
+                  id="btn-generate"
+                  disabled
+                >
+                  Generate Recommendations
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- TAB 2: RECOMMENDATIONS -->
+          <div
+            class="tab-pane fade {% if active_tab == 'recommendations' %}show active{% endif %}"
+            id="tab-recs"
+            role="tabpanel"
+          >
+            <div class="row mb-3">
+              <div class="col-md-9">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <span class="fw-semibold">Recommendations</span>
+                    <small class="text-muted ms-1">
+                      <span id="result-count">
+                        {{ recommendations|length if recommendations else 0 }}
+                      </span>
+                      matches
+                    </small>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <label for="sort-by" class="form-label mb-0">Sort by</label>
+                    <select class="form-select form-select-sm" id="sort-by">
+                      <option value="fit_desc">Best overall fit</option>
+                      <option value="tuition_asc">Lowest tuition first</option>
+                      <option value="tuition_desc">Highest tuition first</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 text-md-end mt-2 mt-md-0">
+                {% if constraints_summary %}
+                <div class="cf-profile-summary small text-muted">
+                  {{ constraints_summary }}
+                </div>
+                {% endif %}
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Left sidebar: Quick Filters -->
+              <div class="col-md-3 mb-4">
+                <div class="cf-card p-3">
+                  <h6 class="card-title mb-3">Quick Filters</h6>
+
+                  <div class="mb-3">
+                    <label class="form-label">Degree level</label>
+                    <select class="form-select" id="filter-degree">
+                      <option value="">All</option>
+                      <option value="Certificate">Certificate</option>
+                      <option value="Associate">Associate</option>
+                      <option value="Bachelor's">Bachelor's</option>
+                    </select>
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="form-label">Max tuition (USD)</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="filter-max-tuition"
+                      placeholder="No limit"
+                      value="{% if profile and profile.max_tuition %}{{ profile.max_tuition|int }}{% endif %}"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right main area: Recommendations -->
+              <div class="col-md-9">
+                {% if data_error %}
+                  <div class="alert alert-warning">
+                    The demo dataset could not be loaded. Please ensure
+                    <code>programs_v7.json</code> is present in the same folder as
+                    <code>app_v10.py</code>.
+                  </div>
+                {% elif not recommendations %}
+                  <div class="alert alert-info">
+                    Fill out your profile on the first tab and click
+                    <strong>Generate Recommendations</strong> to see personalized matches here.
+                  </div>
+                {% else %}
+                  <div id="recommendations-list">
+                    {% for p in recommendations %}
+                    <div
+                      class="card program-card mb-3"
+                      data-program-id="{{ p.program_id }}"
+                      data-degree-level="{{ p.degree_level }}"
+                      data-tuition="{{ p.annual_tuition if p.annual_tuition is not none else '' }}"
+                      data-fit-score="{{ p.fit_score }}"
+                    >
+                      <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                          <div>
+                            <h5 class="card-title mb-1">
+                              {{ p.program_name }}
+                            </h5>
+                            <div class="text-muted small">
+                              {{ p.institution_name }}
+                              {% if p.state %}
+                                · {{ p.state }}
+                              {% endif %}
+                            </div>
+                            {% if p.interest_areas %}
+                            <div class="mt-2">
+                              {% for area in p.interest_areas %}
+                              <span
+                                class="cf-chip {% if profile and (area in (profile.interest_areas or [])) %}cf-chip-match{% endif %}"
+                              >
+                                {{ area }}
+                              </span>
+                              {% endfor %}
+                            </div>
+                            {% endif %}
+                            {% if p.program_snippet %}
+                            <p class="program-snippet small text-secondary mt-2 mb-0">
+                              {{ p.program_snippet }}
+                            </p>
+                            {% endif %}
+                          </div>
+                          <div class="text-end">
+                            <div class="badge bg-primary-subtle text-primary-emphasis mb-1">
+                              Fit score: {{ p.fit_score }}/100
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row mb-3">
+                          <div class="col-md-6">
+                            <div class="small text-muted mb-1">Fit dimensions</div>
+                            <div class="fit-dimensions">
+                              <div class="fit-dimension">
+                                <span>Interests</span>
+                                <div class="fit-bar">
+                                  <div
+                                    class="fit-bar-fill"
+                                    style="width: {{ (p.interest_score_component / INTEREST_WEIGHT) * 100 }}%;"
+                                  ></div>
+                                </div>
+                              </div>
+                              <div class="fit-dimension">
+                                <span>Degree</span>
+                                <div class="fit-bar">
+                                  <div
+                                    class="fit-bar-fill"
+                                    style="width: {{ (p.degree_score_component / DEGREE_WEIGHT) * 100 if DEGREE_WEIGHT > 0 else 0 }}%;"
+                                  ></div>
+                                </div>
+                              </div>
+                              <div class="fit-dimension">
+                                <span>Location</span>
+                                <div class="fit-bar">
+                                  <div
+                                    class="fit-bar-fill"
+                                    style="width: {{ (p.location_score_component / LOCATION_WEIGHT) * 100 if LOCATION_WEIGHT > 0 else 0 }}%;"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-6">
+                                <div class="small text-muted">Tuition (est.)</div>
+                                <div class="fw-semibold">
+                                  {% if p.annual_tuition %}
+                                    ${{ "%.0f"|format(p.annual_tuition) }}/year
+                                  {% else %}
+                                    Not available
+                                  {% endif %}
+                                </div>
+                              </div>
+                              <div class="col-6">
+                                <div class="small text-muted">Degree level</div>
+                                <div>{{ p.degree_level }}</div>
+                              </div>
+                            </div>
+                            {% if p.median_salary_band %}
+                            <div class="small text-muted mt-2">
+                              Typical early-career earnings: {{ p.median_salary_band }}
+                            </div>
+                            {% endif %}
+                          </div>
+                        </div>
+
+                        <div class="mb-2 small text-muted">
+                          <strong>Why this recommendation?</strong>
+                          <div>{{ p.why_interests }}</div>
+                          <div>{{ p.why_academic }}</div>
+                          <div>{{ p.why_practical }}</div>
+                        </div>
+
+                        <div class="d-flex justify-content-end mt-3">
+                          <button
+                            type="button"
+                            class="btn btn-outline-secondary btn-sm"
+                            data-bs-toggle="modal"
+                            data-bs-target="#detailsModal"
+                            data-program-id="{{ p.program_id }}"
+                          >
+                            View more details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Quick Fill toast -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div
+        id="quickFillToast"
+        class="toast align-items-center text-bg-dark border-0"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="d-flex">
+          <div class="toast-body">
+            Demo persona applied. You can tweak any field and generate recommendations.
+          </div>
+          <button
+            type="button"
+            class="btn-close btn-close-white me-2 m-auto"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Details Modal -->
+    <div
+      class="modal fade"
+      id="detailsModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <h5 class="modal-title" id="detailsModalTitle"></h5>
+              <div class="small text-muted" id="detailsModalInstitution"></div>
+            </div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row mb-3">
+              <div class="col-md-4">
+                <div class="small text-muted">Fit score</div>
+                <div class="fs-4" id="detailsModalFitScore"></div>
+              </div>
+              <div class="col-md-4">
+                <div class="small text-muted">Degree level</div>
+                <div id="detailsModalDegree"></div>
+              </div>
+              <div class="col-md-4">
+                <div class="small text-muted">Estimated tuition</div>
+                <div id="detailsModalTuition"></div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="small text-muted">Why this recommendation (interests)</div>
+              <div id="detailsModalWhyInterests"></div>
+            </div>
+            <div class="mb-3">
+              <div class="small text-muted">Academic context</div>
+              <div id="detailsModalWhyAcademic"></div>
+            </div>
+            <div class="mb-3">
+              <div class="small text-muted">Practical considerations</div>
+              <div id="detailsModalWhyPractical"></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS + custom JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="{{ url_for('static', filename='main_v10.js') }}"></script>
+  </body>
+</html>

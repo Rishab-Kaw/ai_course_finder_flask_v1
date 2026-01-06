@@ -1,0 +1,2415 @@
+[
+  {
+    "program_id": "V7-P001",
+    "program_name": "B.S. in Data Science",
+    "institution_name": "University of Minnesota Twin Cities",
+    "degree_level": "Bachelor's",
+    "state": "MN",
+    "annual_tuition": 18500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "75k-95k",
+    "grad_rate": 0.8,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "DataScience",
+    "program_snippet": "Interdisciplinary training in statistics, programming, and machine learning for data-driven decision making."
+  },
+  {
+    "program_id": "V7-P002",
+    "program_name": "B.A. in English",
+    "institution_name": "University of Florida",
+    "degree_level": "Bachelor's",
+    "state": "FL",
+    "annual_tuition": 11500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Arts"
+    ],
+    "median_salary_band": "35k-50k",
+    "grad_rate": 0.87,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "suburban",
+    "cip_cluster": "English",
+    "program_snippet": "Liberal arts program in literature, writing, and critical analysis with opportunities for creative work."
+  },
+  {
+    "program_id": "V7-P003",
+    "program_name": "B.S. in Electrical Engineering",
+    "institution_name": "University of Phoenix",
+    "degree_level": "Bachelor's",
+    "state": "AZ",
+    "annual_tuition": 13500,
+    "institution_type": "Private For-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-90k",
+    "grad_rate": 0.25,
+    "selectivity_band": "open",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "A program focused on circuits, electronics, and signal processing with opportunities for undergraduate research."
+  },
+  {
+    "program_id": "V7-P004",
+    "program_name": "B.A. in Psychology",
+    "institution_name": "Austin Community College",
+    "degree_level": "Bachelor's",
+    "state": "TX",
+    "annual_tuition": 4500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Social Sciences"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.35,
+    "selectivity_band": "open",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "Psychology",
+    "program_snippet": "Study of human behavior, cognition, and mental health with training in research methods."
+  },
+  {
+    "program_id": "V7-P005",
+    "program_name": "B.A. in Graphic Design",
+    "institution_name": "Arizona State University",
+    "degree_level": "Bachelor's",
+    "state": "AZ",
+    "annual_tuition": 11500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Arts",
+      "Design"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.7,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Design",
+    "program_snippet": "Studio-based program in visual communication, typography, and digital design with portfolio development."
+  },
+  {
+    "program_id": "V7-P006",
+    "program_name": "B.S. in Mechanical Engineering",
+    "institution_name": "University of Phoenix",
+    "degree_level": "Bachelor's",
+    "state": "AZ",
+    "annual_tuition": 13500,
+    "institution_type": "Private For-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-85k",
+    "grad_rate": 0.25,
+    "selectivity_band": "open",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "Core mechanical engineering fundamentals with lab-based design, dynamics, and materials coursework."
+  },
+  {
+    "program_id": "V7-P007",
+    "program_name": "B.A. in English",
+    "institution_name": "Arizona State University",
+    "degree_level": "Bachelor's",
+    "state": "AZ",
+    "annual_tuition": 11500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Arts"
+    ],
+    "median_salary_band": "35k-50k",
+    "grad_rate": 0.7,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "English",
+    "program_snippet": "Liberal arts program in literature, writing, and critical analysis with opportunities for creative work."
+  },
+  {
+    "program_id": "V7-P008",
+    "program_name": "Certificate in Web Development",
+    "institution_name": "University of Illinois Urbana-Champaign",
+    "degree_level": "Certificate",
+    "state": "IL",
+    "annual_tuition": 14500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "Online"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "50k-70k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "WebDev",
+    "program_snippet": "Short, intensive program focused on modern front-end and back-end web technologies."
+  },
+  {
+    "program_id": "V7-P009",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "Loyola University Chicago",
+    "degree_level": "Bachelor's",
+    "state": "IL",
+    "annual_tuition": 50500,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.79,
+    "selectivity_band": "selective",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P010",
+    "program_name": "A.S. in Information Technology",
+    "institution_name": "Miami Dade College",
+    "degree_level": "Associate",
+    "state": "FL",
+    "annual_tuition": 3000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "45k-60k",
+    "grad_rate": 0.32,
+    "selectivity_band": "open",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "IT",
+    "program_snippet": "Practical IT curriculum including networking, operating systems, and technical support."
+  },
+  {
+    "program_id": "V7-P011",
+    "program_name": "A.A.S. in Nursing",
+    "institution_name": "University of Phoenix",
+    "degree_level": "Associate",
+    "state": "AZ",
+    "annual_tuition": 10000,
+    "institution_type": "Private For-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.25,
+    "selectivity_band": "open",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Associate-level nursing program emphasizing foundational clinical skills for entry-level practice."
+  },
+  {
+    "program_id": "V7-P012",
+    "program_name": "B.S. in Nursing (Pre-Licensure)",
+    "institution_name": "University of Illinois Urbana-Champaign",
+    "degree_level": "Bachelor's",
+    "state": "IL",
+    "annual_tuition": 18500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "60k-80k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Clinically focused nursing preparation with simulation labs and supervised hospital rotations."
+  },
+  {
+    "program_id": "V7-P013",
+    "program_name": "B.S. in Nursing (Pre-Licensure)",
+    "institution_name": "Purdue University West Lafayette",
+    "degree_level": "Bachelor's",
+    "state": "IN",
+    "annual_tuition": 12000,
+    "institution_type": "Public",
+    "campus_type": "Rural",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "60k-80k",
+    "grad_rate": 0.78,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "rural",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Clinically focused nursing preparation with simulation labs and supervised hospital rotations."
+  },
+  {
+    "program_id": "V7-P014",
+    "program_name": "B.S. in Computer Science",
+    "institution_name": "New York University",
+    "degree_level": "Bachelor's",
+    "state": "NY",
+    "annual_tuition": 57500,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "70k-90k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "CS",
+    "program_snippet": "A rigorous computer science curriculum covering algorithms, software engineering, and systems with hands-on projects."
+  },
+  {
+    "program_id": "V7-P015",
+    "program_name": "B.A. in Graphic Design",
+    "institution_name": "University of Illinois Urbana-Champaign",
+    "degree_level": "Bachelor's",
+    "state": "IL",
+    "annual_tuition": 16500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Arts",
+      "Design"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "Design",
+    "program_snippet": "Studio-based program in visual communication, typography, and digital design with portfolio development."
+  },
+  {
+    "program_id": "V7-P016",
+    "program_name": "B.S. in Electrical Engineering",
+    "institution_name": "Boston University",
+    "degree_level": "Bachelor's",
+    "state": "MA",
+    "annual_tuition": 56500,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-90k",
+    "grad_rate": 0.88,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "A program focused on circuits, electronics, and signal processing with opportunities for undergraduate research."
+  },
+  {
+    "program_id": "V7-P017",
+    "program_name": "B.S. in Data Science",
+    "institution_name": "University of Phoenix",
+    "degree_level": "Bachelor's",
+    "state": "AZ",
+    "annual_tuition": 14000,
+    "institution_type": "Private For-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "75k-95k",
+    "grad_rate": 0.25,
+    "selectivity_band": "open",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "DataScience",
+    "program_snippet": "Interdisciplinary training in statistics, programming, and machine learning for data-driven decision making."
+  },
+  {
+    "program_id": "V7-P018",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "Rochester Institute of Technology",
+    "degree_level": "Bachelor's",
+    "state": "NY",
+    "annual_tuition": 53500,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.69,
+    "selectivity_band": "selective",
+    "size_category": "medium",
+    "urbanicity": "suburban",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P019",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "University of Illinois Urbana-Champaign",
+    "degree_level": "Bachelor's",
+    "state": "IL",
+    "annual_tuition": 18000,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P020",
+    "program_name": "B.A. in Psychology",
+    "institution_name": "University of Michigan - Ann Arbor",
+    "degree_level": "Bachelor's",
+    "state": "MI",
+    "annual_tuition": 17000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Social Sciences"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.92,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "Psychology",
+    "program_snippet": "Study of human behavior, cognition, and mental health with training in research methods."
+  },
+  {
+    "program_id": "V7-P021",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "Harvard University",
+    "degree_level": "Bachelor's",
+    "state": "MA",
+    "annual_tuition": 57500,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.97,
+    "selectivity_band": "highly_selective",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P022",
+    "program_name": "B.S. in Mechanical Engineering",
+    "institution_name": "University of Illinois Urbana-Champaign",
+    "degree_level": "Bachelor's",
+    "state": "IL",
+    "annual_tuition": 19000,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-85k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "Core mechanical engineering fundamentals with lab-based design, dynamics, and materials coursework."
+  },
+  {
+    "program_id": "V7-P023",
+    "program_name": "B.A. in English",
+    "institution_name": "Loyola University Chicago",
+    "degree_level": "Bachelor's",
+    "state": "IL",
+    "annual_tuition": 49000,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Arts"
+    ],
+    "median_salary_band": "35k-50k",
+    "grad_rate": 0.79,
+    "selectivity_band": "selective",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "English",
+    "program_snippet": "Liberal arts program in literature, writing, and critical analysis with opportunities for creative work."
+  },
+  {
+    "program_id": "V7-P024",
+    "program_name": "B.A. in Graphic Design",
+    "institution_name": "University of Phoenix",
+    "degree_level": "Bachelor's",
+    "state": "AZ",
+    "annual_tuition": 11000,
+    "institution_type": "Private For-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Arts",
+      "Design"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.25,
+    "selectivity_band": "open",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Design",
+    "program_snippet": "Studio-based program in visual communication, typography, and digital design with portfolio development."
+  },
+  {
+    "program_id": "V7-P025",
+    "program_name": "B.S. in Computer Science",
+    "institution_name": "Pennsylvania State University",
+    "degree_level": "Bachelor's",
+    "state": "PA",
+    "annual_tuition": 21000,
+    "institution_type": "Public",
+    "campus_type": "Rural",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "70k-90k",
+    "grad_rate": 0.76,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "rural",
+    "cip_cluster": "CS",
+    "program_snippet": "A rigorous computer science curriculum covering algorithms, software engineering, and systems with hands-on projects."
+  },
+  {
+    "program_id": "V7-P026",
+    "program_name": "Certificate in Web Development",
+    "institution_name": "University of Illinois Urbana-Champaign",
+    "degree_level": "Certificate",
+    "state": "IL",
+    "annual_tuition": 14500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "Online"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "50k-70k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "WebDev",
+    "program_snippet": "Short, intensive program focused on modern front-end and back-end web technologies."
+  },
+  {
+    "program_id": "V7-P027",
+    "program_name": "A.A.S. in Nursing",
+    "institution_name": "Pennsylvania State University",
+    "degree_level": "Associate",
+    "state": "PA",
+    "annual_tuition": 17500,
+    "institution_type": "Public",
+    "campus_type": "Rural",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.76,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "rural",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Associate-level nursing program emphasizing foundational clinical skills for entry-level practice."
+  },
+  {
+    "program_id": "V7-P028",
+    "program_name": "B.S. in Electrical Engineering",
+    "institution_name": "University of California, Los Angeles",
+    "degree_level": "Bachelor's",
+    "state": "CA",
+    "annual_tuition": 20000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-90k",
+    "grad_rate": 0.91,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "A program focused on circuits, electronics, and signal processing with opportunities for undergraduate research."
+  },
+  {
+    "program_id": "V7-P029",
+    "program_name": "B.S. in Data Science",
+    "institution_name": "University of California, Los Angeles",
+    "degree_level": "Bachelor's",
+    "state": "CA",
+    "annual_tuition": 20500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "75k-95k",
+    "grad_rate": 0.91,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "DataScience",
+    "program_snippet": "Interdisciplinary training in statistics, programming, and machine learning for data-driven decision making."
+  },
+  {
+    "program_id": "V7-P030",
+    "program_name": "B.A. in English",
+    "institution_name": "University of Minnesota Twin Cities",
+    "degree_level": "Bachelor's",
+    "state": "MN",
+    "annual_tuition": 15500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Arts"
+    ],
+    "median_salary_band": "35k-50k",
+    "grad_rate": 0.8,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "English",
+    "program_snippet": "Liberal arts program in literature, writing, and critical analysis with opportunities for creative work."
+  },
+  {
+    "program_id": "V7-P031",
+    "program_name": "B.S. in Mechanical Engineering",
+    "institution_name": "Arizona State University",
+    "degree_level": "Bachelor's",
+    "state": "AZ",
+    "annual_tuition": 14000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-85k",
+    "grad_rate": 0.7,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "Core mechanical engineering fundamentals with lab-based design, dynamics, and materials coursework."
+  },
+  {
+    "program_id": "V7-P032",
+    "program_name": "B.S. in Mechanical Engineering",
+    "institution_name": "University of Florida",
+    "degree_level": "Bachelor's",
+    "state": "FL",
+    "annual_tuition": 14000,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-85k",
+    "grad_rate": 0.87,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "suburban",
+    "cip_cluster": "Engineering",
+    "program_snippet": "Core mechanical engineering fundamentals with lab-based design, dynamics, and materials coursework."
+  },
+  {
+    "program_id": "V7-P033",
+    "program_name": "B.A. in Psychology",
+    "institution_name": "University of Illinois Urbana-Champaign",
+    "degree_level": "Bachelor's",
+    "state": "IL",
+    "annual_tuition": 16500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Social Sciences"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "Psychology",
+    "program_snippet": "Study of human behavior, cognition, and mental health with training in research methods."
+  },
+  {
+    "program_id": "V7-P034",
+    "program_name": "B.A. in English",
+    "institution_name": "Georgia Institute of Technology",
+    "degree_level": "Bachelor's",
+    "state": "GA",
+    "annual_tuition": 14500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Arts"
+    ],
+    "median_salary_band": "35k-50k",
+    "grad_rate": 0.89,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "English",
+    "program_snippet": "Liberal arts program in literature, writing, and critical analysis with opportunities for creative work."
+  },
+  {
+    "program_id": "V7-P035",
+    "program_name": "B.S. in Computer Science",
+    "institution_name": "Pennsylvania State University",
+    "degree_level": "Bachelor's",
+    "state": "PA",
+    "annual_tuition": 21000,
+    "institution_type": "Public",
+    "campus_type": "Rural",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "70k-90k",
+    "grad_rate": 0.76,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "rural",
+    "cip_cluster": "CS",
+    "program_snippet": "A rigorous computer science curriculum covering algorithms, software engineering, and systems with hands-on projects."
+  },
+  {
+    "program_id": "V7-P036",
+    "program_name": "A.A.S. in Nursing",
+    "institution_name": "University of California, Berkeley",
+    "degree_level": "Associate",
+    "state": "CA",
+    "annual_tuition": 16500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.92,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Associate-level nursing program emphasizing foundational clinical skills for entry-level practice."
+  },
+  {
+    "program_id": "V7-P037",
+    "program_name": "B.S. in Data Science",
+    "institution_name": "The University of Texas at Austin",
+    "degree_level": "Bachelor's",
+    "state": "TX",
+    "annual_tuition": 16000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "75k-95k",
+    "grad_rate": 0.81,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "DataScience",
+    "program_snippet": "Interdisciplinary training in statistics, programming, and machine learning for data-driven decision making."
+  },
+  {
+    "program_id": "V7-P038",
+    "program_name": "Certificate in Web Development",
+    "institution_name": "Harvard University",
+    "degree_level": "Certificate",
+    "state": "MA",
+    "annual_tuition": 54000,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "Online"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "50k-70k",
+    "grad_rate": 0.97,
+    "selectivity_band": "highly_selective",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "WebDev",
+    "program_snippet": "Short, intensive program focused on modern front-end and back-end web technologies."
+  },
+  {
+    "program_id": "V7-P039",
+    "program_name": "B.S. in Mechanical Engineering",
+    "institution_name": "Massachusetts Institute of Technology",
+    "degree_level": "Bachelor's",
+    "state": "MA",
+    "annual_tuition": 60000,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-85k",
+    "grad_rate": 0.95,
+    "selectivity_band": "highly_selective",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "Core mechanical engineering fundamentals with lab-based design, dynamics, and materials coursework."
+  },
+  {
+    "program_id": "V7-P040",
+    "program_name": "B.A. in Graphic Design",
+    "institution_name": "The University of Texas at Austin",
+    "degree_level": "Bachelor's",
+    "state": "TX",
+    "annual_tuition": 13000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Arts",
+      "Design"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.81,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Design",
+    "program_snippet": "Studio-based program in visual communication, typography, and digital design with portfolio development."
+  },
+  {
+    "program_id": "V7-P041",
+    "program_name": "B.S. in Computer Science",
+    "institution_name": "University of Florida",
+    "degree_level": "Bachelor's",
+    "state": "FL",
+    "annual_tuition": 14000,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "70k-90k",
+    "grad_rate": 0.87,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "suburban",
+    "cip_cluster": "CS",
+    "program_snippet": "A rigorous computer science curriculum covering algorithms, software engineering, and systems with hands-on projects."
+  },
+  {
+    "program_id": "V7-P042",
+    "program_name": "B.S. in Nursing (Pre-Licensure)",
+    "institution_name": "University of Minnesota Twin Cities",
+    "degree_level": "Bachelor's",
+    "state": "MN",
+    "annual_tuition": 17500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "60k-80k",
+    "grad_rate": 0.8,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Clinically focused nursing preparation with simulation labs and supervised hospital rotations."
+  },
+  {
+    "program_id": "V7-P043",
+    "program_name": "B.S. in Mechanical Engineering",
+    "institution_name": "The University of Texas at Austin",
+    "degree_level": "Bachelor's",
+    "state": "TX",
+    "annual_tuition": 15500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-85k",
+    "grad_rate": 0.81,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "Core mechanical engineering fundamentals with lab-based design, dynamics, and materials coursework."
+  },
+  {
+    "program_id": "V7-P044",
+    "program_name": "B.S. in Electrical Engineering",
+    "institution_name": "University of Minnesota Twin Cities",
+    "degree_level": "Bachelor's",
+    "state": "MN",
+    "annual_tuition": 18000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-90k",
+    "grad_rate": 0.8,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "A program focused on circuits, electronics, and signal processing with opportunities for undergraduate research."
+  },
+  {
+    "program_id": "V7-P045",
+    "program_name": "B.S. in Nursing (Pre-Licensure)",
+    "institution_name": "University of Florida",
+    "degree_level": "Bachelor's",
+    "state": "FL",
+    "annual_tuition": 13500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "60k-80k",
+    "grad_rate": 0.87,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "suburban",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Clinically focused nursing preparation with simulation labs and supervised hospital rotations."
+  },
+  {
+    "program_id": "V7-P046",
+    "program_name": "B.S. in Data Science",
+    "institution_name": "University of Illinois Urbana-Champaign",
+    "degree_level": "Bachelor's",
+    "state": "IL",
+    "annual_tuition": 19500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "75k-95k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "DataScience",
+    "program_snippet": "Interdisciplinary training in statistics, programming, and machine learning for data-driven decision making."
+  },
+  {
+    "program_id": "V7-P047",
+    "program_name": "A.A.S. in Nursing",
+    "institution_name": "Austin Community College",
+    "degree_level": "Associate",
+    "state": "TX",
+    "annual_tuition": 3500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.35,
+    "selectivity_band": "open",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Associate-level nursing program emphasizing foundational clinical skills for entry-level practice."
+  },
+  {
+    "program_id": "V7-P048",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "Arizona State University",
+    "degree_level": "Bachelor's",
+    "state": "AZ",
+    "annual_tuition": 13000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.7,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P049",
+    "program_name": "B.S. in Computer Science",
+    "institution_name": "University of Illinois Urbana-Champaign",
+    "degree_level": "Bachelor's",
+    "state": "IL",
+    "annual_tuition": 19000,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "70k-90k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "CS",
+    "program_snippet": "A rigorous computer science curriculum covering algorithms, software engineering, and systems with hands-on projects."
+  },
+  {
+    "program_id": "V7-P050",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "Boston University",
+    "degree_level": "Bachelor's",
+    "state": "MA",
+    "annual_tuition": 55500,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.88,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P051",
+    "program_name": "B.S. in Electrical Engineering",
+    "institution_name": "University of California, Berkeley",
+    "degree_level": "Bachelor's",
+    "state": "CA",
+    "annual_tuition": 20000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-90k",
+    "grad_rate": 0.92,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "A program focused on circuits, electronics, and signal processing with opportunities for undergraduate research."
+  },
+  {
+    "program_id": "V7-P052",
+    "program_name": "B.S. in Electrical Engineering",
+    "institution_name": "University of Michigan - Ann Arbor",
+    "degree_level": "Bachelor's",
+    "state": "MI",
+    "annual_tuition": 19500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-90k",
+    "grad_rate": 0.92,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "A program focused on circuits, electronics, and signal processing with opportunities for undergraduate research."
+  },
+  {
+    "program_id": "V7-P053",
+    "program_name": "B.S. in Electrical Engineering",
+    "institution_name": "The University of Texas at Austin",
+    "degree_level": "Bachelor's",
+    "state": "TX",
+    "annual_tuition": 15500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-90k",
+    "grad_rate": 0.81,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "A program focused on circuits, electronics, and signal processing with opportunities for undergraduate research."
+  },
+  {
+    "program_id": "V7-P054",
+    "program_name": "B.S. in Nursing (Pre-Licensure)",
+    "institution_name": "Arizona State University",
+    "degree_level": "Bachelor's",
+    "state": "AZ",
+    "annual_tuition": 13500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "60k-80k",
+    "grad_rate": 0.7,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Clinically focused nursing preparation with simulation labs and supervised hospital rotations."
+  },
+  {
+    "program_id": "V7-P055",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "University of Minnesota Twin Cities",
+    "degree_level": "Bachelor's",
+    "state": "MN",
+    "annual_tuition": 17000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.8,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P056",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "University of Minnesota Twin Cities",
+    "degree_level": "Bachelor's",
+    "state": "MN",
+    "annual_tuition": 17000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.8,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P057",
+    "program_name": "B.S. in Computer Science",
+    "institution_name": "The Ohio State University",
+    "degree_level": "Bachelor's",
+    "state": "OH",
+    "annual_tuition": 14500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "70k-90k",
+    "grad_rate": 0.83,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "CS",
+    "program_snippet": "A rigorous computer science curriculum covering algorithms, software engineering, and systems with hands-on projects."
+  },
+  {
+    "program_id": "V7-P058",
+    "program_name": "B.S. in Mechanical Engineering",
+    "institution_name": "University of California, Los Angeles",
+    "degree_level": "Bachelor's",
+    "state": "CA",
+    "annual_tuition": 20000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-85k",
+    "grad_rate": 0.91,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "Core mechanical engineering fundamentals with lab-based design, dynamics, and materials coursework."
+  },
+  {
+    "program_id": "V7-P059",
+    "program_name": "B.A. in Psychology",
+    "institution_name": "University of California, Berkeley",
+    "degree_level": "Bachelor's",
+    "state": "CA",
+    "annual_tuition": 17500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Social Sciences"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.92,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Psychology",
+    "program_snippet": "Study of human behavior, cognition, and mental health with training in research methods."
+  },
+  {
+    "program_id": "V7-P060",
+    "program_name": "Certificate in Web Development",
+    "institution_name": "Miami Dade College",
+    "degree_level": "Certificate",
+    "state": "FL",
+    "annual_tuition": 3000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "Online"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "50k-70k",
+    "grad_rate": 0.32,
+    "selectivity_band": "open",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "WebDev",
+    "program_snippet": "Short, intensive program focused on modern front-end and back-end web technologies."
+  },
+  {
+    "program_id": "V7-P061",
+    "program_name": "B.S. in Nursing (Pre-Licensure)",
+    "institution_name": "The Ohio State University",
+    "degree_level": "Bachelor's",
+    "state": "OH",
+    "annual_tuition": 14000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "60k-80k",
+    "grad_rate": 0.83,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Clinically focused nursing preparation with simulation labs and supervised hospital rotations."
+  },
+  {
+    "program_id": "V7-P062",
+    "program_name": "B.S. in Computer Science",
+    "institution_name": "University of Michigan - Ann Arbor",
+    "degree_level": "Bachelor's",
+    "state": "MI",
+    "annual_tuition": 19500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "70k-90k",
+    "grad_rate": 0.92,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "CS",
+    "program_snippet": "A rigorous computer science curriculum covering algorithms, software engineering, and systems with hands-on projects."
+  },
+  {
+    "program_id": "V7-P063",
+    "program_name": "B.S. in Mechanical Engineering",
+    "institution_name": "Pennsylvania State University",
+    "degree_level": "Bachelor's",
+    "state": "PA",
+    "annual_tuition": 20500,
+    "institution_type": "Public",
+    "campus_type": "Rural",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-85k",
+    "grad_rate": 0.76,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "rural",
+    "cip_cluster": "Engineering",
+    "program_snippet": "Core mechanical engineering fundamentals with lab-based design, dynamics, and materials coursework."
+  },
+  {
+    "program_id": "V7-P064",
+    "program_name": "Certificate in Web Development",
+    "institution_name": "University of Florida",
+    "degree_level": "Certificate",
+    "state": "FL",
+    "annual_tuition": 9500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "Online"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "50k-70k",
+    "grad_rate": 0.87,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "suburban",
+    "cip_cluster": "WebDev",
+    "program_snippet": "Short, intensive program focused on modern front-end and back-end web technologies."
+  },
+  {
+    "program_id": "V7-P065",
+    "program_name": "A.S. in Information Technology",
+    "institution_name": "DeVry University",
+    "degree_level": "Associate",
+    "state": "IL",
+    "annual_tuition": 16500,
+    "institution_type": "Private For-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "45k-60k",
+    "grad_rate": 0.3,
+    "selectivity_band": "open",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "IT",
+    "program_snippet": "Practical IT curriculum including networking, operating systems, and technical support."
+  },
+  {
+    "program_id": "V7-P066",
+    "program_name": "B.S. in Electrical Engineering",
+    "institution_name": "The Ohio State University",
+    "degree_level": "Bachelor's",
+    "state": "OH",
+    "annual_tuition": 14500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-90k",
+    "grad_rate": 0.83,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "A program focused on circuits, electronics, and signal processing with opportunities for undergraduate research."
+  },
+  {
+    "program_id": "V7-P067",
+    "program_name": "B.S. in Data Science",
+    "institution_name": "Georgia Institute of Technology",
+    "degree_level": "Bachelor's",
+    "state": "GA",
+    "annual_tuition": 17500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "75k-95k",
+    "grad_rate": 0.89,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "DataScience",
+    "program_snippet": "Interdisciplinary training in statistics, programming, and machine learning for data-driven decision making."
+  },
+  {
+    "program_id": "V7-P068",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "Massachusetts Institute of Technology",
+    "degree_level": "Bachelor's",
+    "state": "MA",
+    "annual_tuition": 59000,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.95,
+    "selectivity_band": "highly_selective",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P069",
+    "program_name": "Certificate in Web Development",
+    "institution_name": "Austin Community College",
+    "degree_level": "Certificate",
+    "state": "TX",
+    "annual_tuition": 2500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "Online"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "50k-70k",
+    "grad_rate": 0.35,
+    "selectivity_band": "open",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "WebDev",
+    "program_snippet": "Short, intensive program focused on modern front-end and back-end web technologies."
+  },
+  {
+    "program_id": "V7-P070",
+    "program_name": "B.S. in Nursing (Pre-Licensure)",
+    "institution_name": "University of California, Los Angeles",
+    "degree_level": "Bachelor's",
+    "state": "CA",
+    "annual_tuition": 19500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "60k-80k",
+    "grad_rate": 0.91,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Clinically focused nursing preparation with simulation labs and supervised hospital rotations."
+  },
+  {
+    "program_id": "V7-P071",
+    "program_name": "B.S. in Data Science",
+    "institution_name": "The Ohio State University",
+    "degree_level": "Bachelor's",
+    "state": "OH",
+    "annual_tuition": 15000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "75k-95k",
+    "grad_rate": 0.83,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "DataScience",
+    "program_snippet": "Interdisciplinary training in statistics, programming, and machine learning for data-driven decision making."
+  },
+  {
+    "program_id": "V7-P072",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "University of Florida",
+    "degree_level": "Bachelor's",
+    "state": "FL",
+    "annual_tuition": 13000,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.87,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "suburban",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P073",
+    "program_name": "B.S. in Nursing (Pre-Licensure)",
+    "institution_name": "University of California, Berkeley",
+    "degree_level": "Bachelor's",
+    "state": "CA",
+    "annual_tuition": 19500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "60k-80k",
+    "grad_rate": 0.92,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Clinically focused nursing preparation with simulation labs and supervised hospital rotations."
+  },
+  {
+    "program_id": "V7-P074",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "University of California, Berkeley",
+    "degree_level": "Bachelor's",
+    "state": "CA",
+    "annual_tuition": 19000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.92,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P075",
+    "program_name": "B.S. in Computer Science",
+    "institution_name": "Boston University",
+    "degree_level": "Bachelor's",
+    "state": "MA",
+    "annual_tuition": 56500,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "70k-90k",
+    "grad_rate": 0.88,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "CS",
+    "program_snippet": "A rigorous computer science curriculum covering algorithms, software engineering, and systems with hands-on projects."
+  },
+  {
+    "program_id": "V7-P076",
+    "program_name": "B.A. in Graphic Design",
+    "institution_name": "University of Florida",
+    "degree_level": "Bachelor's",
+    "state": "FL",
+    "annual_tuition": 11500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Arts",
+      "Design"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.87,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "suburban",
+    "cip_cluster": "Design",
+    "program_snippet": "Studio-based program in visual communication, typography, and digital design with portfolio development."
+  },
+  {
+    "program_id": "V7-P077",
+    "program_name": "B.S. in Computer Science",
+    "institution_name": "University of Minnesota Twin Cities",
+    "degree_level": "Bachelor's",
+    "state": "MN",
+    "annual_tuition": 18000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "70k-90k",
+    "grad_rate": 0.8,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "CS",
+    "program_snippet": "A rigorous computer science curriculum covering algorithms, software engineering, and systems with hands-on projects."
+  },
+  {
+    "program_id": "V7-P078",
+    "program_name": "B.A. in Psychology",
+    "institution_name": "University of Florida",
+    "degree_level": "Bachelor's",
+    "state": "FL",
+    "annual_tuition": 11500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Social Sciences"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.87,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "suburban",
+    "cip_cluster": "Psychology",
+    "program_snippet": "Study of human behavior, cognition, and mental health with training in research methods."
+  },
+  {
+    "program_id": "V7-P079",
+    "program_name": "A.A.S. in Nursing",
+    "institution_name": "Miami Dade College",
+    "degree_level": "Associate",
+    "state": "FL",
+    "annual_tuition": 2500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.32,
+    "selectivity_band": "open",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Associate-level nursing program emphasizing foundational clinical skills for entry-level practice."
+  },
+  {
+    "program_id": "V7-P080",
+    "program_name": "B.S. in Computer Science",
+    "institution_name": "University of Florida",
+    "degree_level": "Bachelor's",
+    "state": "FL",
+    "annual_tuition": 14000,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "70k-90k",
+    "grad_rate": 0.87,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "suburban",
+    "cip_cluster": "CS",
+    "program_snippet": "A rigorous computer science curriculum covering algorithms, software engineering, and systems with hands-on projects."
+  },
+  {
+    "program_id": "V7-P081",
+    "program_name": "A.S. in Information Technology",
+    "institution_name": "Austin Community College",
+    "degree_level": "Associate",
+    "state": "TX",
+    "annual_tuition": 4000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "45k-60k",
+    "grad_rate": 0.35,
+    "selectivity_band": "open",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "IT",
+    "program_snippet": "Practical IT curriculum including networking, operating systems, and technical support."
+  },
+  {
+    "program_id": "V7-P082",
+    "program_name": "B.S. in Electrical Engineering",
+    "institution_name": "University of Florida",
+    "degree_level": "Bachelor's",
+    "state": "FL",
+    "annual_tuition": 14000,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-90k",
+    "grad_rate": 0.87,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "suburban",
+    "cip_cluster": "Engineering",
+    "program_snippet": "A program focused on circuits, electronics, and signal processing with opportunities for undergraduate research."
+  },
+  {
+    "program_id": "V7-P083",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "University of California, Los Angeles",
+    "degree_level": "Bachelor's",
+    "state": "CA",
+    "annual_tuition": 19000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.91,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P084",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "University of Minnesota Twin Cities",
+    "degree_level": "Bachelor's",
+    "state": "MN",
+    "annual_tuition": 17000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.8,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P085",
+    "program_name": "B.S. in Mechanical Engineering",
+    "institution_name": "University of Minnesota Twin Cities",
+    "degree_level": "Bachelor's",
+    "state": "MN",
+    "annual_tuition": 18000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-85k",
+    "grad_rate": 0.8,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "Core mechanical engineering fundamentals with lab-based design, dynamics, and materials coursework."
+  },
+  {
+    "program_id": "V7-P086",
+    "program_name": "B.A. in Graphic Design",
+    "institution_name": "New York University",
+    "degree_level": "Bachelor's",
+    "state": "NY",
+    "annual_tuition": 55000,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Arts",
+      "Design"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Design",
+    "program_snippet": "Studio-based program in visual communication, typography, and digital design with portfolio development."
+  },
+  {
+    "program_id": "V7-P087",
+    "program_name": "B.S. in Nursing (Pre-Licensure)",
+    "institution_name": "University of Michigan - Ann Arbor",
+    "degree_level": "Bachelor's",
+    "state": "MI",
+    "annual_tuition": 19000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "60k-80k",
+    "grad_rate": 0.92,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Clinically focused nursing preparation with simulation labs and supervised hospital rotations."
+  },
+  {
+    "program_id": "V7-P088",
+    "program_name": "A.S. in Information Technology",
+    "institution_name": "Miami Dade College",
+    "degree_level": "Associate",
+    "state": "FL",
+    "annual_tuition": 3000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "45k-60k",
+    "grad_rate": 0.32,
+    "selectivity_band": "open",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "IT",
+    "program_snippet": "Practical IT curriculum including networking, operating systems, and technical support."
+  },
+  {
+    "program_id": "V7-P089",
+    "program_name": "B.S. in Computer Science",
+    "institution_name": "Arizona State University",
+    "degree_level": "Bachelor's",
+    "state": "AZ",
+    "annual_tuition": 14000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "70k-90k",
+    "grad_rate": 0.7,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "CS",
+    "program_snippet": "A rigorous computer science curriculum covering algorithms, software engineering, and systems with hands-on projects."
+  },
+  {
+    "program_id": "V7-P090",
+    "program_name": "B.S. in Electrical Engineering",
+    "institution_name": "Pennsylvania State University",
+    "degree_level": "Bachelor's",
+    "state": "PA",
+    "annual_tuition": 20500,
+    "institution_type": "Public",
+    "campus_type": "Rural",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-90k",
+    "grad_rate": 0.76,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "rural",
+    "cip_cluster": "Engineering",
+    "program_snippet": "A program focused on circuits, electronics, and signal processing with opportunities for undergraduate research."
+  },
+  {
+    "program_id": "V7-P091",
+    "program_name": "B.A. in English",
+    "institution_name": "The University of Texas at Austin",
+    "degree_level": "Bachelor's",
+    "state": "TX",
+    "annual_tuition": 13000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Arts"
+    ],
+    "median_salary_band": "35k-50k",
+    "grad_rate": 0.81,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "English",
+    "program_snippet": "Liberal arts program in literature, writing, and critical analysis with opportunities for creative work."
+  },
+  {
+    "program_id": "V7-P092",
+    "program_name": "B.S. in Mechanical Engineering",
+    "institution_name": "Arizona State University",
+    "degree_level": "Bachelor's",
+    "state": "AZ",
+    "annual_tuition": 14000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-85k",
+    "grad_rate": 0.7,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "Core mechanical engineering fundamentals with lab-based design, dynamics, and materials coursework."
+  },
+  {
+    "program_id": "V7-P093",
+    "program_name": "B.S. in Data Science",
+    "institution_name": "University of Florida",
+    "degree_level": "Bachelor's",
+    "state": "FL",
+    "annual_tuition": 14500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "75k-95k",
+    "grad_rate": 0.87,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "suburban",
+    "cip_cluster": "DataScience",
+    "program_snippet": "Interdisciplinary training in statistics, programming, and machine learning for data-driven decision making."
+  },
+  {
+    "program_id": "V7-P094",
+    "program_name": "B.B.A. in Business Administration",
+    "institution_name": "The Ohio State University",
+    "degree_level": "Bachelor's",
+    "state": "OH",
+    "annual_tuition": 13500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Business"
+    ],
+    "median_salary_band": "55k-75k",
+    "grad_rate": 0.83,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Business",
+    "program_snippet": "Broad business foundation in accounting, marketing, and management with case-based learning."
+  },
+  {
+    "program_id": "V7-P095",
+    "program_name": "B.S. in Nursing (Pre-Licensure)",
+    "institution_name": "University of Illinois Urbana-Champaign",
+    "degree_level": "Bachelor's",
+    "state": "IL",
+    "annual_tuition": 18500,
+    "institution_type": "Public",
+    "campus_type": "Suburban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Healthcare"
+    ],
+    "median_salary_band": "60k-80k",
+    "grad_rate": 0.85,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "Nursing",
+    "program_snippet": "Clinically focused nursing preparation with simulation labs and supervised hospital rotations."
+  },
+  {
+    "program_id": "V7-P096",
+    "program_name": "B.A. in Graphic Design",
+    "institution_name": "University of Michigan - Ann Arbor",
+    "degree_level": "Bachelor's",
+    "state": "MI",
+    "annual_tuition": 17000,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Online"
+    ],
+    "interest_areas": [
+      "Arts",
+      "Design"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.92,
+    "selectivity_band": "highly_selective",
+    "size_category": "large",
+    "urbanicity": "mid_sized_city",
+    "cip_cluster": "Design",
+    "program_snippet": "Studio-based program in visual communication, typography, and digital design with portfolio development."
+  },
+  {
+    "program_id": "V7-P097",
+    "program_name": "B.A. in English",
+    "institution_name": "Boston University",
+    "degree_level": "Bachelor's",
+    "state": "MA",
+    "annual_tuition": 54000,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Arts"
+    ],
+    "median_salary_band": "35k-50k",
+    "grad_rate": 0.88,
+    "selectivity_band": "selective",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "English",
+    "program_snippet": "Liberal arts program in literature, writing, and critical analysis with opportunities for creative work."
+  },
+  {
+    "program_id": "V7-P098",
+    "program_name": "B.A. in Psychology",
+    "institution_name": "University of Minnesota Twin Cities",
+    "degree_level": "Bachelor's",
+    "state": "MN",
+    "annual_tuition": 15500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Social Sciences"
+    ],
+    "median_salary_band": "40k-55k",
+    "grad_rate": 0.8,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "Psychology",
+    "program_snippet": "Study of human behavior, cognition, and mental health with training in research methods."
+  },
+  {
+    "program_id": "V7-P099",
+    "program_name": "B.S. in Data Science",
+    "institution_name": "University of Minnesota Twin Cities",
+    "degree_level": "Bachelor's",
+    "state": "MN",
+    "annual_tuition": 18500,
+    "institution_type": "Public",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus",
+      "Hybrid"
+    ],
+    "interest_areas": [
+      "Computer Science",
+      "STEM"
+    ],
+    "median_salary_band": "75k-95k",
+    "grad_rate": 0.8,
+    "selectivity_band": "moderate",
+    "size_category": "large",
+    "urbanicity": "large_city",
+    "cip_cluster": "DataScience",
+    "program_snippet": "Interdisciplinary training in statistics, programming, and machine learning for data-driven decision making."
+  },
+  {
+    "program_id": "V7-P100",
+    "program_name": "B.S. in Mechanical Engineering",
+    "institution_name": "Massachusetts Institute of Technology",
+    "degree_level": "Bachelor's",
+    "state": "MA",
+    "annual_tuition": 60000,
+    "institution_type": "Private Non-Profit",
+    "campus_type": "Urban",
+    "delivery_modes": [
+      "On-Campus"
+    ],
+    "interest_areas": [
+      "Engineering",
+      "STEM"
+    ],
+    "median_salary_band": "65k-85k",
+    "grad_rate": 0.95,
+    "selectivity_band": "highly_selective",
+    "size_category": "medium",
+    "urbanicity": "large_city",
+    "cip_cluster": "Engineering",
+    "program_snippet": "Core mechanical engineering fundamentals with lab-based design, dynamics, and materials coursework."
+  }
+]
